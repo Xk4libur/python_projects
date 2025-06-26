@@ -42,7 +42,7 @@ After a long conversation, you discover that you can get out of the Ante-Hell.\n
 
     else:
         print("\nSelect a valid option [1/3]\n")
-        decision_1()  # vuelve a intentar
+        decision_1()  # Try again
 
 
 print("\nYou are a damned soul who has awakened in the depths of Hell and must escape by passing through different infernal circles, facing demons.\n")
@@ -57,5 +57,5 @@ print("\nWhen your turn comes, the demon stares you in the eyes and without sayi
 time.sleep(5)
 print("\nWhen you wake up, you discover that you are in a very quiet place, but you don't know what to do and you think of 3 different options: ") # Option 1
 
-# Ejecutar la decisión
+# Execute the decision
 decision_1()
