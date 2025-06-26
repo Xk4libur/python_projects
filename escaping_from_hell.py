@@ -1,6 +1,7 @@
 #!/usr/bin/env/python3
 
 import time
+import sys
 
 print(r"""
 
@@ -29,17 +30,17 @@ def decision_1():
 
     if choice == "1":
         print("\nYou decided to sit quietly waiting for something to happen, but nothing happens and you sit there for eternity. (You lost)\n")
+        sys.exit()
 
     elif choice == "2":
         print("""\nAfter walking for a long time, you find some souls talking. 
-You approach to ask where you are. One of the souls says that you are in the Ante-Hell, 
-the only circle of Hell where there is no punishment.
-You ask who these souls are, and they answer that they were unbaptized in life — among them is Socrates.
-After a long conversation, you discover that you can get out of the Ante-Hell.\n""")
+        You approach to ask where you are. One of the souls says that you are in the Ante-Hell, the only circle of Hell where there is no punishment.
+        You ask who these souls are, and they answer that they were unbaptized in life — among them is Socrates.
+        After a long conversation, you discover that you can get out of the Ante-Hell.\n""")
 
     elif choice == "3":
         print("\nYou decide to look for a way out on your own, but you don't discover any way out and you can't find anyone to go with you. (You lost)\n")
-
+        sys.exit()
     else:
         print("\nSelect a valid option [1/3]\n")
         decision_1()  # Try again
@@ -59,3 +60,4 @@ print("\nWhen you wake up, you discover that you are in a very quiet place, but 
 
 # Execute the decision
 decision_1()
+
