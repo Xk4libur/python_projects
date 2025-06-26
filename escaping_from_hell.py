@@ -44,8 +44,6 @@ After a long conversation, you discover that you can get out of the Ante-Hell.\n
         print("\nSelect a valid option [1/3]\n")
         decision_1()  # vuelve a intentar
 
-# Ejecutar la decisión
-decision_1()
 
 print("\nYou are a damned soul who has awakened in the depths of Hell and must escape by passing through different infernal circles, facing demons.\n")
 time.sleep(3)
@@ -57,6 +55,7 @@ print("\nSuddenly, demons appear and begin to take all the souls to a pit where 
 time.sleep(3)
 print("\nWhen your turn comes, the demon stares you in the eyes and without saying anything, you become unconscious.\n")
 time.sleep(3)
-print("\nWhen you wake up, you discover that you are in a very quiet place, but you don't know what to do and you think of 3 different options:\n") # Option 1
+print("\nWhen you wake up, you discover that you are in a very quiet place, but you don't know what to do and you think of 3 different options: ") # Option 1
 
-
+# Ejecutar la decisión
+decision_1()
