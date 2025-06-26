@@ -46,15 +46,15 @@ After a long conversation, you discover that you can get out of the Ante-Hell.\n
 
 
 print("\nYou are a damned soul who has awakened in the depths of Hell and must escape by passing through different infernal circles, facing demons.\n")
-time.sleep(3)
+time.sleep(5)
 print("\nIn order to get out of hell, you have to get to the deepest point of hell, there is the main exit to the real world, but there is also Lucifer.\n")
-time.sleep(3)
+time.sleep(5)
 print("\nYour journey begins in the “ante-inferno” room, where you find all the damned souls who have died at the same time as you.\n")
-time.sleep(3)
+time.sleep(5)
 print("\nSuddenly, demons appear and begin to take all the souls to a pit where there is a demon in the form of a snake, the demon who judges the souls and takes them to different stages of hell.\n")
-time.sleep(3)
+time.sleep(5)
 print("\nWhen your turn comes, the demon stares you in the eyes and without saying anything, you become unconscious.\n")
-time.sleep(3)
+time.sleep(5)
 print("\nWhen you wake up, you discover that you are in a very quiet place, but you don't know what to do and you think of 3 different options: ") # Option 1
 
 # Ejecutar la decisión
