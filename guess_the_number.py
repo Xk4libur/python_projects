@@ -11,11 +11,11 @@ try:
          if user_num < secret_num:
              print("\nToo low.\n")
     
-         if user_num > secret_num:
+         elif user_num > secret_num:
               print("\nToo big.\n")
 
-         if user_num == secret_num:
+         else user_num == secret_num:
              print("\nGood number\n")
 
 except KeyboardInterrupt:
-    print("\nLeaving the program\n")
+    print("\n[+] Leaving the program\n")
