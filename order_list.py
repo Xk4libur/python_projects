@@ -18,3 +18,5 @@ try:
     print("\nThe list of numbers is:", numbers)
 except ValueError:
     print("\nInclude only numbers between the spaces.")
+except KeyboardInterrupt:
+    print("\n[+] Leaving the program\n")
