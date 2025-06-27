@@ -11,7 +11,7 @@ print(r"""
 
 print("\nGive me some numbers (separated by spaces): \n")
 
-a = input(">> ")
+a = input(">>")
 
 try:
     numbers = [int(n) for n in a.split()]
