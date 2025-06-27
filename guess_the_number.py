@@ -8,9 +8,10 @@ while attempt != secret_num:
     user_num = int(input("Put a number: "))
 
     if user_num < secret_num:
-        print("Too low.")
+        print("\nToo low.\n")
     
-    elif user_num > secret_num:
-        print("Too big.")
+    if user_num > secret_num:
+        print("\nToo big.\n")
 
-print("Good number")
+    if user_num == secret_num:
+        print("\nGood number\n")
