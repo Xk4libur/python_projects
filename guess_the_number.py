@@ -14,8 +14,8 @@ try:
          if user_num > secret_num:
               print("\nToo big.\n")
 
-except KeyboardInterrupt
-    print("\nLeaving the program\n")
-
          if user_num == secret_num:
              print("\nGood number\n")
+
+except KeyboardInterrupt
+    print("\nLeaving the program\n")
