@@ -9,6 +9,12 @@ print(r"""
                                                     made by xk4libur
  """)
 
-print("\nGive me some numbers: \n")
+print("\nGive me some numbers (separated by spaces): \n")
 
-input()
+a = input(">>")
+
+try:
+    numbers = [int(n) for n in a.split()]
+    print("\nThe list of numbers is:", numbers)
+except ValueError:
+    print("\nInclude only numbers between the spaces.")
