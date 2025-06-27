@@ -1,4 +1,4 @@
-#!/usr/bin/env/python3
+#!/usr/bin/env python3
 
 import random
 secret_num = random.randint(1,20)
@@ -17,5 +17,5 @@ try:
          if user_num == secret_num:
              print("\nGood number\n")
 
-except KeyboardInterrupt
+except KeyboardInterrupt:
     print("\nLeaving the program\n")
