@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 class Persona:
     def __init__(self, nombre, edad, sexo):
