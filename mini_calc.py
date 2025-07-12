@@ -19,7 +19,7 @@ if operator == "+":
     print(f"\nResultado: {number_1 + number_2}\n")
 elif operator == "-":
     print(f"\nResultado: {number_1 - number_2}\n")
-elif operator == "*":
+elif operator == "x":
     print(f"\nResultado: {number_1 * number_2}\n")
 elif operator == "/":
     if b != 0:
