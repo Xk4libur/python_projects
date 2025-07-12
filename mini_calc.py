@@ -16,15 +16,15 @@ print("\nAvailable operations: +, -, x, /\n")
 operator = input("Vhoose your option: ")
 
 if operator == "+":
-    print(f"Resultado: {number_1 + number_2}")
+    print(f"\nResultado: {number_1 + number_2}\n")
 elif operator == "-":
-    print(f"Resultado: {number_1 - number_2}")
+    print(f"\nResultado: {number_1 - number_2}\n")
 elif operator == "*":
-    print(f"Resultado: {number_1 * number_2}")
+    print(f"\nResultado: {number_1 * number_2}\n")
 elif operator == "/":
     if b != 0:
-        print(f"Resultado: {number_1 / number_2}")
+        print(f"\nResultado: {number_1 / number_2}\n")
     else:
-        print("Error: división por cero.")
+        print("\nError: división por cero.\n")
 else:
     print("Operador no válido.")
