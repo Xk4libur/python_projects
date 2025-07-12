@@ -8,3 +8,23 @@ print(r"""
 |_|  |_|_|_| |_|_|  \___\__,_|_|\___|
                                             made by xk4libur
 """)
+
+number_1 = float(input("Put the first number: "))
+number_2 = float(input("Put the second number: "))
+
+print("\nAvailable operations: +, -, x, /\n")
+operator = input("Vhoose your option:")
+
+if operador == "+":
+    print(f"Resultado: {number_1 + number_2}")
+elif operador == "-":
+    print(f"Resultado: {number_1 - number_2}")
+elif operador == "*":
+    print(f"Resultado: {number_1 * number_2}")
+elif operador == "/":
+    if b != 0:
+        print(f"Resultado: {number_1 / number_2}")
+    else:
+        print("Error: división por cero.")
+else:
+    print("Operador no válido.")
