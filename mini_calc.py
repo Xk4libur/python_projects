@@ -13,15 +13,15 @@ number_1 = float(input("Put the first number: "))
 number_2 = float(input("Put the second number: "))
 
 print("\nAvailable operations: +, -, x, /\n")
-operator = input("Vhoose your option:")
+operator = input("Vhoose your option: ")
 
-if operador == "+":
+if operator == "+":
     print(f"Resultado: {number_1 + number_2}")
-elif operador == "-":
+elif operator == "-":
     print(f"Resultado: {number_1 - number_2}")
-elif operador == "*":
+elif operator == "*":
     print(f"Resultado: {number_1 * number_2}")
-elif operador == "/":
+elif operator == "/":
     if b != 0:
         print(f"Resultado: {number_1 / number_2}")
     else:
